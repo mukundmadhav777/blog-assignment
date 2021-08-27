@@ -1,0 +1,23 @@
+body{
+  background: url(https://th.bing.com/th/id/OIP.7ivjMNj41dCUcsXLJ3LTtAHaFj?w=233&h=180&c=7&o=5&dpr=1.25&pid=1.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+color: black;
+font-family: 'Anton', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-size: 100px;
+}
+h2{
+  color:red;
+  font-family: 'Anton', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Lobster', cursive;
+}
+h3{
+  color:white;
+  font-family: 'Anton', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Heebo', sans-serif;
+}

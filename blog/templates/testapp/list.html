@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Heebo:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Heebo:wght@900&family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arvo:ital@1&family=Heebo:wght@900&family=Lobster&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="{%static "css/list.css"%}">
+  <body>
+
+
+
+<div class="container" align="center">
+<h1>BLOG</h1>
+</div>
+  {%for post in blog_list%}
+<h2>{{post.title}}</h2>
+<h3>{{post.content}}</h3>
+{%endfor%}
+    </body>
+</html>
